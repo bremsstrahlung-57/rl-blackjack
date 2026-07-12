@@ -1,0 +1,32 @@
+Blackjack Rules and How to Play
+
+Objective
+The goal of blackjack is to beat the dealer by having a hand worth more points than the dealer’s hand without exceeding 21.
+
+Card Values
+- Number cards (2–10) are worth their face value.
+- Jacks, queens, and kings are worth 10 points.
+- Aces are worth either 1 or 11 points, whichever is better for the hand.
+
+How to Play
+1. Place a bet before the cards are dealt.
+2. Each player receives two cards. The dealer also receives two cards, usually one face up and one face down.
+3. If your first two cards are an ace and a 10-value card, you have a “blackjack.” A blackjack normally beats any other hand totaling 21.
+4. On your turn, choose from the available actions:
+   - Hit: Take another card.
+   - Stand: Keep your current hand and end your turn.
+   - Double down: Double your original bet, receive exactly one more card, and then stand.
+   - Split: If your first two cards have the same value, divide them into two hands and place an equal bet on the second hand.
+   - Surrender: At tables that allow it, give up the hand and lose half your bet.
+5. If your hand exceeds 21, you “bust” and immediately lose.
+6. After all players finish, the dealer reveals the hidden card. The dealer must hit until reaching at least 17, according to the table’s rules.
+7. If the dealer busts, all remaining players win. Otherwise, hands are compared:
+   - A hand closer to 21 than the dealer’s wins.
+   - A hand lower than the dealer’s loses.
+   - Equal totals result in a “push,” and the player’s original bet is returned.
+
+Payouts and Table Rules
+- A normal winning hand usually pays 1:1.
+- Blackjack commonly pays 3:2, although some tables pay 6:5.
+- Insurance may be offered when the dealer shows an ace. It is a separate bet that the dealer has blackjack.
+- Rules for splitting, doubling, dealer play on a soft 17, and blackjack payouts vary by casino or game, so check the table rules before playing.

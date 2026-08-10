@@ -1,6 +1,11 @@
+# this is file has no use in rl or any other function related to this file. this is only for reference for rules and code related to it.
+# ignore this file
+
+
 import random
 
-class BlackJackGame():
+
+class BlackJackGame:
     def __init__(self):
         card_categories = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
         cards_list = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King']

@@ -1,5 +1,6 @@
-from rl_env import BlackJackRLEnviroment
 from gymnasium.utils.env_checker import check_env
+
+from rl_env import BlackJackRLEnviroment
 
 
 def main():

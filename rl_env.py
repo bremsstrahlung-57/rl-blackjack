@@ -35,6 +35,9 @@ class BlackJackRLEnviroment(gym.Env):
         )
 
     def _compute_reward(self):
+        self.player_score = self.hand_value(self.player_deck)
+        self.dealer_score = self.hand_value(self.dealer_deck)
+
         if self.dealer_score > 21 or  self.player_score >  self.dealer_score:
             return 1
         elif self.player_score < self.dealer_score:

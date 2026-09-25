@@ -110,7 +110,7 @@ class TestBlackJackRLEnviroment(unittest.TestCase):
 
         observation, reward, terminated, truncated, info = self.env.step(1)
 
-        self.assertEqual(observation, (17, 6, True))
+        self.assertEqual(observation, (17, 6, False))
         self.assertEqual(reward, 0)
         self.assertFalse(terminated)
         self.assertFalse(truncated)

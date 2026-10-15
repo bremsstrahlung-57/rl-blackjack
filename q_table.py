@@ -19,14 +19,14 @@ def epsilon_greedy(state, epsilon):
 
 
 def train(
-    num_episodes=500_000,
-    alpha=0.05,
-    gamma=0.1,
+    num_episodes=2_000_000,
+    gamma=1.0,
     epsilon_start=1.0,
     epsilon_min=0.01,
-    epsilon_decay=0.99999,
+    epsilon_decay=0.999995,
 ):
     epsilon = epsilon_start
+    N = defaultdict(lambda: np.zeros(action_space.n))
 
     for ep in range(num_episodes):
         state, _ = env.reset()
@@ -39,10 +39,13 @@ def train(
 
             best_next = 0.0 if terminated else np.max(Q[next_state])
             td_target = float(reward) + gamma * best_next
+
+            N[state][action] += 1
+            alpha = 1.0 / N[state][action]
             Q[state][action] += alpha * (td_target - Q[state][action])
 
             state = next_state
 
         epsilon = max(epsilon_min, epsilon * epsilon_decay)
 
-    return Q
+    return Q, N
